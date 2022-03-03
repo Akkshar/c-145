@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script
+            src = "https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+            <title> My first ar project </title>
+        
+    </head>
+    <body>
+        <a-scene>
+          <a-camera look-controls-enabled = "true"></a-camera>
+          <a-sky color = "#31e08f"> </a-sky>
+          <a-plane color = "black" length = "15" width = "10" rotation = "-90 0 0" position = "0 0 -5"> </a-plane>
+          <a-box color = "red" position = "0 0.3 -5" rotation = "0 0 0" width = "0.5" height = "0.5" depth = "0.5" > </a-box>
+          <a-cylinder color = "cyan" radius = "0.25" height = "1" position = "1 0.5 -5"  ></a-cylinder>
+          <a-cone color = "teal" radius-bottom = "0.3" radius-top = "0" position = "2 0.5 -5" ></a-cone>
+          <a-icosahedron color = "purple" radius = "0.6" position = "3 0.5 -5"></a-icosahedron>
+          <a-sphere color = "#ff4d00" radius = "0.5" position = "-1 0.5 -5"></a-sphere>
+          <a-ring color = "#ff005d" radius-inner = "0.15" radius-outer = "0.3" position = "-2 0.3 -5" segment-phi = "45"></a-ring>
+          <a-tetrahedron color = "#eeff00" rotation = "-180 0 0" position = "-3 0.45 -5" radius = "0.5"></a-tetrahedron>
+        </a-scene>
+    </body>
+</html>
